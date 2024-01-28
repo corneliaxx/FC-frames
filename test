@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="fc:frame" content="vNext" />
+    <meta property="fc:frame:image" content="https://drive.google.com/uc?id=1ixlFe76NDS6Tyr18w20VOHj3fRzVMlHr" />
+    <meta property="fc:frame:button:1" content="Nice" />
+    <meta property="fc:frame:button:2" content="Get q/DAO back" />
+
+    <title>Your Poll Frame</title>
+</head>
+<body>
+    <h1>Welcome to the Poll!</h1>
+    <p>Vote for your favorite option:</p>
+
+    <!-- Actual content goes here -->
+    <button onclick="vote('Nice')">Vote for "Nice"</button>
+    <button onclick="vote('Get q/DAO back')">Vote for "Get q/DAO back"</button>
+
+    <script>
+        function vote(option) {
+            // Handle the vote logic here
+            alert("You voted for: " + option);
+        }
+    </script>
+</body>
+</html>
